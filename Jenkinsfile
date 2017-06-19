@@ -1,5 +1,5 @@
 pipeline {
-    node 
+    node {
     stages { 
         stage('Example') {
             steps {
@@ -7,4 +7,5 @@ pipeline {
             }
         }
     }
+}
 }
